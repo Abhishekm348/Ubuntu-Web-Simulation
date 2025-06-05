@@ -1,0 +1,30 @@
+{
+  "name": "abhishek-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Abhishek M - Data Scientist & ML Engineer Portfolio",
+  "author": "Abhishek M <abhishekmreva@gmail.com>",
+  "homepage": "https://abhishekm348.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhishekm348/abhishekm348.github.io.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export",
+    "deploy": "node deploy.js"
+  },
+  "dependencies": {
+    "next": "^12.0.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "emailjs-com": "^3.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7"
+  }
+}
